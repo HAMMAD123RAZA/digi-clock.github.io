@@ -1,14 +1,31 @@
-body{
+body {
     background-color: slategray;
     color: rgb(18, 19, 20);
     font-size: 5rem;
     font-weight: 500;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 97vw;
     height: 87vh;
+
     /* background-color: yellow; */
+}
+
+.border {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: silver;
+    padding: 12px;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        font-size: 32px;
+    }
+
+    
 }
