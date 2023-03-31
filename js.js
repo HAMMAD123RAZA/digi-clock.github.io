@@ -40,8 +40,8 @@ const display = () => {
     let hour = document.getElementById('hour').innerHTML = hr;
     let minute = document.getElementById('min').innerHTML = min;
     let second = document.getElementById('sec').innerHTML = sec;
-    let dateSpan = document.getElementById('date');
-    dateSpan.innerHTML = date; // set the date in the HTML element
+    let dateSpan = document.getElementById('date').innerHTML = date;
+     // set the date in the HTML element
   };
   
   setInterval(display, 10);
